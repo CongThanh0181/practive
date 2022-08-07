@@ -1,0 +1,147 @@
+/*  reset css kieu co ban */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*/
+1.Vị trí
+2.Kích thước(width, height)
+3.Màu sắc
+4.Kiểu dáng(kiểu chữ, hình tròn, vuông...)
+/*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+}
+
+#header{
+height: 46px;
+background-color: black;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+
+#nav{
+    display: inline-block;
+
+}
+
+#nav>li{
+    display: inline-block;
+
+}
+
+#nav li{
+    
+    position: relative;
+}
+
+#nav .subnav{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #fff;
+    color: black;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#nav .subnav a{
+    color: black;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#nav .subnav li:hover a{
+    color: black;
+    background-color: #ccc;
+
+}
+
+#nav>li>a{
+    color: aliceblue;
+    #slider .text-transform: uppercase;
+
+}
+
+#nav li a{
+    display: block;
+    #slider .text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav>li:hover>a{
+    color: black;
+    background-color: #ccc;
+
+}
+
+#nav .nav-icon{
+    font-size: 10px;
+    
+}
+
+#header .search-btn{
+    float: right;
+    padding: 0 20px;
+
+}
+#header .search-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+
+#slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/assets/img/chicago.jpg') top center / cover no-repeat;
+}   
+
+#slider .text-content{
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%) ;
+    text-align: center;
+
+}
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+#slider .text-description{
+    font-size: 15px;
+}
+
+#content{
+
+}
+
+#footer{
+
+}
