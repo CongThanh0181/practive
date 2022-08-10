@@ -20,7 +20,7 @@ html{
     clear: both;
 }
 .text-while{
-    color: #fff;!important;
+    color: #fff !important;
 }
 
 .row{
@@ -158,7 +158,7 @@ z-index: 1;
     line-height: 46px;
 }
 
-
+/* slider */
 #slider{
     position: relative;
     margin-top: 46px;
