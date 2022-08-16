@@ -115,13 +115,12 @@ z-index: 1;
 
 #nav>li>a{
     color: aliceblue;
-    #slider .text-transform: uppercase;
-
+    text-transform: uppercase;
 }
 
 #nav li a{
     display: block;
-    #slider .text-decoration: none;
+    text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
     text-decoration: none;
@@ -163,7 +162,7 @@ z-index: 1;
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: top center / cover no-repeat;
+    background:url('../img/chicago.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content{
@@ -183,11 +182,8 @@ z-index: 1;
 #slider .text-description{
     font-size: 15px;
 }
+
 /* content */
-#content{
-
-}
-
 #content .content-section{
     width: 800px;
     margin-left: auto;
