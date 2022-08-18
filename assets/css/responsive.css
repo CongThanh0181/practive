@@ -1,0 +1,33 @@
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+#content .content-section{
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+}
+/* mobile */
+@media (max-width: 739px){
+#header{
+    overflow: hidden;
+}
+
+#nav>li{
+    display: block;
+}
+
+#header .search-btn{
+    display: none;
+}
+
+#header .menu-btn{
+    display: flex;
+}
+
+
+#content .content-section{
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+}

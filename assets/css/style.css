@@ -151,10 +151,26 @@ z-index: 1;
     cursor: pointer;
 }
 
+#header .menu-icon,
 #header .search-icon{
     color: #fff;
     font-size: 20px;
     line-height: 46px;
+}
+
+#header .menu-btn{
+    float: right;
+    padding: 0 20px;
+    display: none;
+    height: 46px;
+}
+
+#header .menu-btn:hover{
+    background-color: #ccc;
+}
+
+#header .menu-btn:hover .menu-icon{
+    color: #000;
 }
 
 /* slider */
@@ -188,7 +204,7 @@ z-index: 1;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 64px 0;
+    padding: 64px 0px;
 }
 
 #content .section-heading{

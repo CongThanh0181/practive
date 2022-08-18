@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -32,6 +33,10 @@
             <!-- end navigation -->
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
+            </div>
+
+            <div id="mobile-menu" class="menu-btn">
+                <i class="menu-icon ti-menu"></i>
             </div>
         </div>
 
@@ -221,6 +226,19 @@
         modalContainer.addEventListener('click',function(event){
             event.stopPropagation()
         })
+
+        // responsive 
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenu.onclick = function(){
+            var isClose = header.clientHeight === 46;
+            if(isClose){
+                header.style.height = 'auto';
+            }else{
+                header.style.height = '46px';
+            }
+        }
     </script>
 </body>
 </html>
