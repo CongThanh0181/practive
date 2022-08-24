@@ -317,7 +317,7 @@ z-index: 1;
     text-decoration: none;
     padding: 10px 16px;
     display: inline-block;
-
+    border: none;
 }
 .places .button-buy:hover{
     background-color: #ddd;
